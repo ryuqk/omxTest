@@ -18,9 +18,11 @@ OpenMax decoder Lib for Raspberry PI
 * run
 
 >xc_omxPlay
+<pre>
 args
         -d: device default: /dev/video0
         -H: image height default:640 
         -W: image width default:480 
         -F: image fps default:30 (not work)
         -h: this help 
+</pre>
