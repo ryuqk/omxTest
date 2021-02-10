@@ -1,11 +1,13 @@
 # omxTest
 OpenMax decoder Lib for Raspberry PI
 
+Camera -- V4L2 -- OMX -- HDMI -- LCD
+
 # test code
 
  input: raspi camera (v4l2)
 
- output: HDMI monitor
+ output: HDMI monitor(OMX)
 
 * Make
 
