@@ -1,0 +1,13 @@
+CC=gcc
+CFLAGS+=-g -L./
+
+# CFLAGS+=-Wall -Wextra -Wbad-function-cast -Wcast-align -Wcast-qual -Wconversion -Wlogical-op -Wmissing-declarations -Wmissing-prototypes
+# CFLAGS+=-Wall -Wbad-function-cast -Wcast-qual -Wconversion -Wlogical-op
+LDFLAGS+= -Wl,--rpath=./
+
+ifneq ($(FW_RELEASE),y)
+CFLAGS+=-Wall -g3 -rdynamic -funwind-tables -fstack-protector -D_FORTIFY_SOURCE=1 
+LDFLAGS+=
+else
+CFLAGS+=-DFW_RELEASE
+endif
