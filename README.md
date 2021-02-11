@@ -11,6 +11,8 @@ Camera -- V4L2 -- OMX -- HDMI -- LCD
 
 * Make
 
+>sudo apt install libgles2-mesa-dev
+
 >make
 
 * clean
