@@ -40,8 +40,8 @@ void print_help( void ){
 	
 	printf("args\n"
 			"\t-d: device default: /dev/video0\n"
-			"\t-H: image height default:640 \n"
-			"\t-W: image width default:480 \n"
+			"\t-H: image height default:1080 \n"
+			"\t-W: image width default:1920 \n"
 			"\t-F: image fps default:30 \n"
 			"\t-h: this help \n"
 			);
