@@ -25,8 +25,8 @@ Camera -- V4L2 -- OMX -- HDMI -- LCD
 <pre>
 args
         -d: device default: /dev/video0
-        -H: image height default:640 
-        -W: image width default:480 
+        -H: image height default:1080 
+        -W: image width default:1920 
         -F: image fps default:30 (not work)
         -h: this help 
 </pre>
